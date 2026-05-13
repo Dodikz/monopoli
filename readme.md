@@ -1,1 +1,1 @@
-nomopoli
+nomopoli okta ganteng
