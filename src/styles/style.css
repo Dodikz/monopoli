@@ -1,0 +1,19 @@
+/* Layout Desktop (Layar Lebar) */
+.board-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 kotak berjejer ke samping */
+    gap: 5px;
+}
+
+/* Layout Mobile (Layar di bawah 768px) */
+@media (max-width: 768px) {
+    .board-container {
+        grid-template-columns: repeat(4, 1fr); /* Berubah jadi kotak 4x4 yang lebih solid */
+        /* Atau bisa juga dibuat vertikal: grid-template-columns: 1fr 1fr; */
+    }
+    
+    .tile {
+        height: 80px; /* Ukuran kotak disesuaikan agar pas di jari */
+        font-size: 12px; /* Teks dikecilkan sedikit */
+    }
+}
