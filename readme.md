@@ -1,0 +1,1 @@
+okta ganteng rizz tzy akwokwow
